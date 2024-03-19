@@ -93,9 +93,12 @@ body {
 /* #region main services */
 
 .service {
+    width: 175px;
+    height: 190px;
+    margin: auto;
     text-align: center;
     border: none;
-    padding: 1.1rem 0 0 0;
+    padding: 1.9rem 0 0 0;
     cursor: pointer;
 }
 
@@ -103,31 +106,14 @@ body {
     box-shadow: 1px 1px 2px 3px rgb(224, 224, 224), -1px -1px 2px 3px rgb(224, 224, 224);
 }
 
+.service-img-box {
+    margin-bottom: 10px;
+}
+
 .service-img {
-    height: 5rem;
-    width: min-content;
-}
-
-.service-inbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60%;
-    margin-bottom: 1rem;
-}
-
-.service-box:hover {
-    box-shadow: 1px 1px 3px 4px rgb(224, 224, 224), -1px -1px 3px 4px rgb(224, 224, 224);
-}
-
-img.services {
+    /* height: 4rem; */
     height: 55px;
-}
-
-p.services {
-    font-size: 14px;
-    text-align: center;
-    font-weight: 600;
+    width: min-content;
 }
 
 /* #endregion */
