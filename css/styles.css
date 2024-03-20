@@ -126,3 +126,40 @@ body {
 }
 
 /* #endregion */
+
+/* #region suggestions */
+
+.suggestions {
+    height: 10rem;
+    background: rgb(109, 55, 195);
+}
+
+.suggestions-in {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestions-in-btn {
+    width: 16rem;
+    height: 3.6rem;
+    --bs-btn-bg: rgb(0, 165, 247);
+}
+
+@media(max-width: 576px) {
+    .suggestions {
+        height: fit-content;
+    }
+
+    .suggestions-in {
+        padding: 3rem 2.5rem 3rem 2.5rem;
+        flex-direction: column;
+    }
+
+    .suggestions-in-btn {
+        margin-top: 2rem;
+    }
+}
+
+/* #endregion */
