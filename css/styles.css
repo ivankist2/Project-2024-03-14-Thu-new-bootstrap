@@ -90,6 +90,8 @@ body {
 
 /* #endregion */
 
+/* #region main */
+
 /* #region main services */
 
 .service {
@@ -160,6 +162,29 @@ body {
     .suggestions-in-btn {
         margin-top: 2rem;
     }
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* #region footer */
+.footer-faq {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-faq-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer-faq-text {
+    font-size: 1rem;
+}
+
+.accordion-body {
+    text-align: justify;
 }
 
 /* #endregion */
