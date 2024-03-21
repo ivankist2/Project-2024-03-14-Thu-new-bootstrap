@@ -82,6 +82,7 @@ body {
 
 .header-btn-more-about {
     width: 12rem;
+    min-width: fit-content;
     height: 3rem;
     font-size: 1rem;
     font-weight: 600;
@@ -107,24 +108,40 @@ body {
     box-shadow: 1px 1px 2px 3px rgb(224, 224, 224), -1px -1px 2px 3px rgb(224, 224, 224);
 }
 
+.service:hover .service-img {
+    height: 130%;
+}
+
 .service-unique {
     padding-left: 0.4rem;
     padding-right: 0.4rem;
 }
 
 .service-img-box {
+    height: 4rem;
     margin-bottom: 10px;
 }
 
 .service-img {
+    width: fit-content;
     height: 4rem;
-    /* height: 55px; */
-    width: min-content;
 }
 
 .service-title {
     font-size: 1.1em;
     font-weight: 600;
+}
+
+@media(max-width: 575px) {
+    .service {
+        display: flex;
+        flex-direction: row;
+        padding: 1.9rem 0.6rem 1rem 0.6rem;
+    }
+
+    .service-img-box {
+        width: 50%;
+    }
 }
 
 /* #endregion */
